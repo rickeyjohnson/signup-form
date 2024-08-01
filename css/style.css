@@ -2,4 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+}
+
+#logo-container {
+  width: 55vw;
+  height: 100vh;
+  background-image: url(../assets/images/leaf-bg.jpg);
+  background-size: auto 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+#logo-container,
+#content {
+  height: 100vh;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+
+#photo-credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  flex: 1;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

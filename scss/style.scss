@@ -1,1 +1,31 @@
 @import './globals';
+
+#logo-container {
+    width: 55vw;
+    height: 100vh;
+    background-image: url(../assets/images/leaf-bg.jpg);
+    background-size: auto 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#logo-container,
+#content {
+    height: 100vh;
+}
+
+#logo {
+    @include flexCenter();
+    flex: 2;
+}
+
+#photo-credit {
+    @include flexCenter();
+    align-items: flex-end;
+    flex: 1;
+}
+
+#content {
+    @include flexCenter();
+}
