@@ -42,12 +42,23 @@
     flex-direction: column;
     gap: 4rem;
     background-color: $input-default-border-color;
+    font-family: Helvetica, sans-serif;
 
     #form-container {
         background-color: #ffffff;
 
         button {
             background-color: $input-default-border-color;
+        }
+    }
+
+    #header {
+        font-size: 1.2rem;
+        padding-left: 4rem;
+        padding-right: 8rem;
+
+        p {
+            padding-bottom: 2rem;
         }
     }
 }
