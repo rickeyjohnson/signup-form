@@ -40,4 +40,14 @@
 #content {
     @include flexCenter();
     flex-direction: column;
+    gap: 4rem;
+    background-color: $input-default-border-color;
+
+    #form-container {
+        background-color: #ffffff;
+
+        button {
+            background-color: $input-default-border-color;
+        }
+    }
 }
