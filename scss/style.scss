@@ -1,7 +1,7 @@
 @import './globals';
 
 #logo-container {
-    width: 1500px;
+    width: 55vw;
     height: 100vh;
     background-image: url(../assets/images/leaf-bg.jpg);
     background-size: auto 100vh;
@@ -23,7 +23,7 @@
         width: 100px;
     }
 
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: 'Norse Bold';
 }
 
@@ -35,4 +35,5 @@
 
 #content {
     @include flexCenter();
+    flex-direction: column;
 }

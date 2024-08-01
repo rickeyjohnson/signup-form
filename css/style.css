@@ -14,7 +14,7 @@ body {
 }
 
 #logo-container {
-  width: 1500px;
+  width: 55vw;
   height: 100vh;
   background-image: url(../assets/images/leaf-bg.jpg);
   background-size: auto 100vh;
@@ -33,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 2;
-  font-size: 5rem;
+  font-size: 6rem;
   font-family: "Norse Bold";
 }
 #logo img {
@@ -52,4 +52,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
