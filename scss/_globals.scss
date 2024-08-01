@@ -4,6 +4,12 @@ $input-invalid-border-color: #ff0000;
 $input-focus-border-color: #00aaff;
 $leaf-bg-width: 1862px;
 $leaf-bg-height: 2000px;
+$logo-font: 'Norse Bold';
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('../assets/fonts/Norse-Bold.otf');
+}
 
 @mixin flexCenter() {
     display: flex;

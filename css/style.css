@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("../assets/fonts/Norse-Bold.otf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +14,7 @@ body {
 }
 
 #logo-container {
-  width: 55vw;
+  width: 1500px;
   height: 100vh;
   background-image: url(../assets/images/leaf-bg.jpg);
   background-size: auto 100vh;
@@ -29,6 +33,11 @@ body {
   justify-content: center;
   align-items: center;
   flex: 2;
+  font-size: 5rem;
+  font-family: "Norse Bold";
+}
+#logo img {
+  width: 100px;
 }
 
 #photo-credit {
