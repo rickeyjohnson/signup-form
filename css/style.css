@@ -77,4 +77,9 @@ body {
 }
 #content #header p {
   padding-bottom: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
