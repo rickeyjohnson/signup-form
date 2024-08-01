@@ -1,7 +1,7 @@
 @import './globals';
 
 #logo-container {
-    width: 55vw;
+    width: $leaf-bg-width;
     height: 100vh;
     background-image: url(../assets/images/leaf-bg.jpg);
     background-size: auto 100vh;
@@ -15,10 +15,14 @@
     height: 100vh;
 }
 
-#logo {
+.dimmed-background {
     @include flexCenter();
     flex: 2;
+}
 
+#logo {
+    @include flexCenter();
+    gap: 0.5rem;
     img {
         width: 100px;
     }
