@@ -82,4 +82,9 @@ body {
 .input {
   display: flex;
   flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
