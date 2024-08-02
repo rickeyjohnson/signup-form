@@ -66,6 +66,8 @@ body {
 }
 #content #form-container {
   background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
 }
 #content #form-container button {
   background-color: #E5E7EB;
@@ -79,12 +81,20 @@ body {
   padding-bottom: 2rem;
 }
 
-.input {
-  display: flex;
-  flex-direction: column;
-}
-
 form {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+}
+form label {
+  font-size: 0.8rem;
+}
+form input {
+  width: 15rem;
+  height: 1.5rem;
+}
+form .input {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */
