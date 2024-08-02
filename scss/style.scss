@@ -78,6 +78,14 @@ form {
     input {
         width: 15rem;
         height: 1.5rem;
+
+        &:focus {
+            border: 1px $input-focus-border-color solid;
+        }
+
+        &:invalid {
+            border: 1px $input-invalid-border-color solid;
+        }
     }
 
     .input {

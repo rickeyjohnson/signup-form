@@ -93,6 +93,12 @@ form input {
   width: 15rem;
   height: 1.5rem;
 }
+form input:focus {
+  border: 1px #00aaff solid;
+}
+form input:invalid {
+  border: 1px #ff0000 solid;
+}
 form .input {
   display: flex;
   flex-direction: column;
